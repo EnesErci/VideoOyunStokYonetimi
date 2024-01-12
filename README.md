@@ -9,7 +9,12 @@ Bu proje C# ile kodlanmış bir konsol uygulamasıdır.Video oyun stok yönetimi
 - **Oyunları Katagorize/liste Etmek:** Çıkış yılına göre, Tek/Çok oyunculu olma durumuna göre, İsmine göre, Türüne göre, Stok adedine göre.
 - **Hata Yönetimi:** Kullanıcın sayısal veri girmesi gereken yerde metinsel karakter girdiğinde oluşabilcek hataları dönüşümlerle önledim.
 - **Oyun Sil:** Katagorize edilmiş oyunları silme işlemi yapar.
-Projenin Diyagramı
+
+Projede kullandığım yapılar :
+1. **Kapsülleme:** Get ve Set Metodları kullanılarak oyuncu,OyunYonetimi,Oyun,OyunDegerlendirmesi gibi classları oluşturdum. 
+2. **Soyutlama:** İnterface'ler kullanılarak classların kullanacağı metodları sakladım ve soyut bi yapı oluşturdum
+
+## Projenin Diyagramı
 
 ![Ekran görüntüsü 2024-01-12 211404](https://github.com/EnesErci/VideoOyunStokYonetimi/assets/155585904/a40eeb48-4fac-4a6d-a9d1-ff4a8310d636)
 
@@ -33,11 +38,12 @@ Yüklenen Oyunu silme
 
 ![Ekran görüntüsü 2024-01-12 221113](https://github.com/EnesErci/VideoOyunStokYonetimi/assets/155585904/de98237a-8955-4abf-bece-40cca29bdd24)
 
-Ounu Değerlendirme kısmı 
+Oyunu Değerlendirme kısmı 
 
 ![Ekran görüntüsü 2024-01-12 221253](https://github.com/EnesErci/VideoOyunStokYonetimi/assets/155585904/7e0a9f7c-1556-4516-b539-74bb98cb1b17)
 
   
-Oyunun Yorumlarını ve Değerlendirmelerini Göreme kısmı
+Oyunun Yorumlarını ve Değerlendirmelerini Görme kısmı
 
 ![Ekran görüntüsü 2024-01-12 221308](https://github.com/EnesErci/VideoOyunStokYonetimi/assets/155585904/67abcea5-2755-465a-996c-01d0d0494a1d)
+
